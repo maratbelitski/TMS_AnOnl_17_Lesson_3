@@ -56,8 +56,8 @@ public class Cycles {
 
         //Задача № 6
         for (int i = 10; i <=20 ; i++) {
-            int squ = (int) Math.pow(i,2);
-            System.out.printf("Квадрат числа %S равен %S\n",i,squ);
+            int square = (int) Math.pow(i,2);
+            System.out.printf("Квадрат числа %S равен %S\n",i,square);
         }
     }
 }
