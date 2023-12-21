@@ -43,7 +43,5 @@ public class Seasons {
         } else {
             System.out.println(other);
         }
-
-
     }
 }
