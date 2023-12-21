@@ -30,5 +30,20 @@ public class Advance {
             deposit = deposit + (deposit / 100 * percent);
         }
         System.out.printf("Сумма средств по окончанию договора: %.2f рублей", deposit);
+
+
+        //Задача № 1
+        int fibOne = 0;
+        int fibSec = 1;
+        int fibSum;
+        System.out.println(fibOne);
+        System.out.println(fibSec);
+
+        for (int i = 3; i <= 11; i++) {
+            fibSum = fibOne + fibSec;
+            fibOne = fibSec;
+            fibSec = fibSum;
+            System.out.println(fibSum);
+        }
     }
 }
