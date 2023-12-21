@@ -51,7 +51,14 @@ public class Cycles {
         for (int i = 1; i < input; i++) {
             temp += i;
         }
-        System.out.printf("Сумма чисел от 1 до %S (не включительно) равна %S", input, temp);
+        System.out.printf("Сумма чисел от 1 до %S (не включительно) равна %S\n\n", input, temp);
+
+
+        //Задача № 6
+        for (int i = 10; i <=20 ; i++) {
+            int squ = (int) Math.pow(i,2);
+            System.out.printf("Квадрат числа %S равен %S\n",i,squ);
+        }
     }
 }
 
