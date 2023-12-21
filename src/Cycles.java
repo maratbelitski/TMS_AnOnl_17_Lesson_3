@@ -22,16 +22,6 @@ public class Cycles {
         }
 
 
-        //Задача № 3
-        System.out.print("Введите число до которого нужно суммировать: ");
-        int input = scanner.nextInt();
-        int temp = 0;
-        for (int i = 1; i < input; i++) {
-            temp += i;
-        }
-        System.out.printf("Сумма чисел от 1 до %S (не включительно) равна %s", input, temp);
-
-
         //Задача № 4
         boolean exit = false;
         int number = 0;
@@ -44,5 +34,24 @@ public class Cycles {
                 exit = true;
             }
         }
+
+
+        //Задача № 5
+        int ex = 0;
+        for (int i = 10; i > 0; i--) {
+            System.out.println(ex);
+            ex += -5;
+        }
+
+        //Задача № 3
+        System.out.print("Введите число до которого нужно суммировать: ");
+        int input = scanner.nextInt();
+
+        int temp = 0;
+        for (int i = 1; i < input; i++) {
+            temp += i;
+        }
+        System.out.printf("Сумма чисел от 1 до %S (не включительно) равна %S", input, temp);
     }
 }
+
