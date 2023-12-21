@@ -21,5 +21,14 @@ public class Cycles {
                 System.out.println(i);
         }
 
+
+        //Задача № 3
+        System.out.print("Введите число до которого нужно суммировать: ");
+        int input = scanner.nextInt();
+        int temp=0;
+        for (int i = 1; i < input; i++) {
+            temp += i;
+        }
+        System.out.printf("Сумма чисел от 1 до %S (не включительно) равна %s",input,temp);
     }
 }
