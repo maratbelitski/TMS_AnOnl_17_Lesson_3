@@ -26,5 +26,18 @@ public class Values {
                 System.out.print(input);
             }
         }
+
+
+        //Задача № 4
+        System.out.print("Введите температуру: ");
+        int t = scanner.nextInt();
+
+        if (t > -5){
+            System.out.println("Тепло");
+        }else if (t <=-20){
+            System.out.println("Холодно");
+        }else {
+            System.out.println("Нормально");
+        }
     }
 }
